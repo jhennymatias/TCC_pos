@@ -1,26 +1,14 @@
 import React from 'react';
 import { GoogleLogin } from '@react-oauth/google';
+import { useNavigate } from 'react-router-dom';
 
-const LoginPage = () => {
-  const handleLoginSuccess = (response) => {
-    console.log('Login realizado com sucesso:', response);
-    alert('Login bem-sucedido!');
-  };
-
-  const handleLoginFailure = () => {
-    console.log('Erro no login');
-    alert('Erro ao tentar fazer login');
-  };
-
+const HomePage = () => {
   return (
     <div>
-      <h1>Login com Google</h1>
-      <GoogleLogin
-        onSuccess={handleLoginSuccess}
-        onError={handleLoginFailure}
-      />
+      <h1>Home</h1>
+      
     </div>
   );
 };
 
-export default LoginPage;
+export default HomePage;

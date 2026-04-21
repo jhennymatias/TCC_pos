@@ -1,15 +1,14 @@
-// src/App.jsx
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Home from './pages/Home'; // Página de home (opcional para redirecionamento)
-
+import Login from './pages/Login'; 
+import Forms from './pages/Forms';
 const App = () => {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<p>abc</p>} />
-        <Route path="/login" element={<Home />} />
-        {/* <Home /> */}
+        <Route path="/forms" element={<Forms />} />
+        <Route path="/home" element={<p>abc</p>} />
+        <Route path="/" element={<Login />} />
       </Routes>
     </Router>
   );
