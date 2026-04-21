@@ -1,7 +1,7 @@
-# TCC POS - Sistema de Ponto de Venda
+# TCC - Teste automatizados
 
 ## Descrição
-Este projeto é um sistema de ponto de venda (POS) desenvolvido como parte do Trabalho de Conclusão de Curso (TCC). Utiliza React com Vite para o frontend e Playwright para testes automatizados.
+Este projeto é um sistema ficticio para validar Teste automatizados desenvolvido como parte do Trabalho de Conclusão de Curso (TCC) de Engenharia de Software USP. Utiliza React com Vite para o frontend e Playwright para testes automatizados.
 
 ## Tecnologias Utilizadas
 - **Frontend**: React, Vite
@@ -51,13 +51,3 @@ npx playwright test --headed
 - `npm run build`: Compila a aplicação para produção
 - `npm run preview`: Visualiza a build de produção
 - `npx playwright test`: Executa os testes
-
-## Contribuição
-1. Faça um fork do projeto
-2. Crie uma branch para sua feature (`git checkout -b feature/nova-feature`)
-3. Commit suas mudanças (`git commit -am 'Adiciona nova feature'`)
-4. Push para a branch (`git push origin feature/nova-feature`)
-5. Abra um Pull Request
-
-## Licença
-Este projeto está sob a licença MIT.
